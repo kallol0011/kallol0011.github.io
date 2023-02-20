@@ -1,5 +1,5 @@
 {
-  "homepage":"https://kallol0011.github.io",
+  "homepage": "https://kallol0011.github.io",
   "name": "one-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -12,14 +12,15 @@
     "react-dom": "^18.1.0",
     "react-github-calendar": "^3.4.0",
     "react-icons": "^4.4.0",
+    "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.7",
     "react-tooltip": "^4.5.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -55,7 +55,7 @@ const Portfolio = () => {
       tech2: tailwind ,
       tech3: chakra2,
       discription:<h2>
-      it's a basic clone of facebook . is's have features like Like , Dislike and comments etc
+      it's a basic clone of facebook . it's have features like Like , Dislike and comments etc
 
       </h2>,
       demo:"https://fastidious-nougat-dcf958.netlify.app/",
@@ -91,8 +91,8 @@ const Portfolio = () => {
 
   return (
     <div
-      name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white lg:h-887px  md:h-847px"
+      name="projects"
+      className="bg-gradient-to-b from-gray-800 to-black w-full text-white lg:h-887px  md:h-847px"
     >  
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -127,10 +127,10 @@ const Portfolio = () => {
              </span> 
               <div className="flex items-center justify-center">
                 
-                <a href={demo} target="_blank" className="w-1/2 px-6 m-3.5 p-2 duration-200 text-green hover:scale-105">
+                <a href={demo} target="_blank" className="w-1/2 px-6 m-3.5 p-2 hover:text-blue-400 duration-200 text-green hover:scale-105">
                   Demo
                 </a>
-                <a href={code} target="_blank" className="w-1/2 px-6 m-3.5 p-2 duration-200 hover:scale-105">
+                <a href={code} target="_blank" className="w-1/2 px-6 m-3.5 p-2 hover:text-blue-400 duration-200 hover:scale-105">
                   Code
                 </a>
               </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import ReactTooltip from "react-tooltip"
 import GitHubCalender from "react-github-calendar"
+// import "react-tooltip/dist/react-tooltip.css";
 const About = () => {
   return (
     <div
@@ -14,6 +15,9 @@ const About = () => {
             About
           </p>
         </div>
+
+        
+
 
         <p className="text-xl mt-7 text-gray-400">
         Motivated and innovative aspiring full-stack developer

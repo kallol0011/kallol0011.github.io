@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+// import { Link } from "react-route";
+import Resume from "../assets/Kallol-Sarkar-Resume.pdf"
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -20,13 +22,22 @@ const NavBar = () => {
     },
     {
       id: 4,
-      link: "technical skils",
+      link: "technical_skills",
     },
     {
       id: 5,
       link: "contact",
     },
+    // {
+    //   id: 6,
+    //   link: "Resume",
+    // },
   ];
+
+  const openResume=()=>{
+    window.open("https://drive.google.com/file/d/1qCNGAeixGMObjhT-0LWdvy-j-N5wtbIw/view?usp=share_link");
+    
+  }
 
   return (
     <div className="  flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed ">
@@ -38,14 +49,16 @@ const NavBar = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-105 duration-200"
+            className="px-5 cursor-pointer capitalize font-medium text-gray-400 hover:scale-125 hover:text-blue-400 duration-200"
           >
-            <Link to={link} smooth duration={500}>
+            <Link to={link} smooth duration={600}>
               {link}
             </Link>
           </li>
         ))}
+        <li className="text-blue-300 hover:scale-125 duration-200" onClick={openResume} ><a href={Resume} download="Kallol_Sarkar_Resume"  > Resume </a> </li>
       </ul>
+
 
       <div
         onClick={() => setNav(!nav)}
