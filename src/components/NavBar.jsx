@@ -48,6 +48,7 @@ const NavBar = () => {
       <ul className="hidden md:flex" id="nav-menu" > 
         {links.map(({ id, link }) => (
           <li
+          id=".nav-link.home"
             key={id}
             className="px-5 cursor-pointer capitalize font-medium text-gray-400 hover:scale-125 hover:text-blue-400 duration-200"
           >
