@@ -9,23 +9,29 @@ const NavBar = () => {
 
   const links = [
     {
-      id: 1,
+      // id: 1,
+      id : ".nav-link.home",
       link: "home",
+
     },
     {
-      id: 2,
+      // id: 2,
+      id:".nav-link.about",
       link: "about",
     },
     {
-      id: 3,
+      // id: 3,
+      id:".nav-link.projects",
       link: "projects",
     },
     {
-      id: 4,
+      // id: 4,
+      id:".nav-link.skills",
       link: "technical_skills",
     },
     {
-      id: 5,
+      // id: 5,
+      id:".nav-link.contact",
       link: "contact",
     },
     // {
@@ -48,7 +54,7 @@ const NavBar = () => {
       <ul className="hidden md:flex"  > 
         {links.map(({ id, link }) => (
           <li
-          id=".nav-link.home"
+          
             key={id}
             className="px-5 cursor-pointer capitalize font-medium text-gray-400 hover:scale-125 hover:text-blue-400 duration-200"
           >
