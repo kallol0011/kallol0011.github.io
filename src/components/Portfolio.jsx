@@ -18,6 +18,9 @@ import crypto from "../assets/Projects/crypto.png"
 import nike from "../assets/Projects/nike.png"
 import socialmedia from "../assets/Projects/socialmedia.png"
 
+import cruise from "../assets/Projects/cruise.png"
+import AnalogClock from "../clock/Clock";
+
 const Portfolio = () => {
   const portfolios = [
     {
@@ -25,8 +28,10 @@ const Portfolio = () => {
       src: metsverse,
       tech1: nextjs ,
       tech2: tailwind ,
-      tech3: "https://cdn.dribbble.com/users/4878/screenshots/15802274/media/8f63cece88fccd2a614f791e5fbec240.png?compress=1&resize=400x300&vertical=top",
-      tech:" Next js  tailwind css  Framer Motion",
+      // tech3: "https://cdn.dribbble.com/users/4878/screenshots/15802274/media/8f63cece88fccd2a614f791e5fbec240.png?compress=1&resize=400x300&vertical=top",
+      
+     tech:" Next js  tailwind css  Framer Motion",
+      
       discription:<h2>
       METAVERSUS is a landing page of metaverse website with cool animations  
 
@@ -86,6 +91,21 @@ const Portfolio = () => {
       </h2>,
       demo:"https://fashi0n-square.netlify.app/",
       code:"https://github.com/Avneesh002/Fashion-square"
+    },
+    {
+      id: 6,
+      src: cruise,
+      tech1: reactImage ,
+      // tech2: chakra2 ,
+      // tech3: redux,
+      tech2:typescript1,
+      tech5:node,
+      tech6:mongodb,
+      discription:<h2>
+        Avis is India's leading mobility Company with services ranging from chauffeur drive and self-drive car rentals, car-Sales
+      </h2>,
+      demo:"https://cruiserental.vercel.app/",
+      code:"https://github.com/shikhu51197/Avis-Rentals"
     }
   ];
 
@@ -93,17 +113,19 @@ const Portfolio = () => {
     <div
       name="projects"
       className="bg-gradient-to-b from-gray-800 to-black w-full text-white lg:h-887px  md:h-847px"
+      // className="bg-white  md:h-847px  text-black "
     >  
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-          Projects
+          Projects  <span>  <AnalogClock/> </span>
+          
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src ,demo ,code , tech1 , tech2 , tech3,discription}) => (
+          {portfolios.map(({ id, src , tooltip ,demo ,code , tech1 , tech2 , tech3, tech4, tech5, tech6 , discription}) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                
 
@@ -111,6 +133,7 @@ const Portfolio = () => {
 
 
               <img
+                
                 src={src}
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
@@ -122,7 +145,19 @@ const Portfolio = () => {
               <span className="flex gap-3 py-2 px-2 text-blue-300" > Tech Stack -  
                <img style={{width:"31px"}} src={tech1} alt="tech" />
                <img style={{width:"31px"}} src={tech2} alt="tech" />                   
-               <img style={{width:"31px"}} src={tech3} alt="tech" />                   
+               { tech3 ? <img style={{width:"31px"}} src={tech3} alt="tech" /> : null }                   
+               { tech4 ? <img style={{width:"31px"}} src={tech4} alt="tech" /> : null }                   
+               { tech5 ? <img style={{width:"31px"}} src={tech5} alt="tech" /> : null }                   
+               { tech6 ? <img style={{width:"31px"}} src={tech6} alt="tech" /> : null }                   
+               
+
+             </span> 
+              <span className="flex gap-3 py-2 px-2 ml-14 pl-14 text-blue-300" > 
+               
+                                
+               {/* { tech5 ? <img style={{width:"31px"}} src={tech5} alt="tech" /> : null }                    */}
+               {/* { tech6 ? <img style={{width:"31px"}} src={tech6} alt="tech" /> : null }                    */}
+               
 
              </span> 
               <div className="flex items-center justify-center">
@@ -137,6 +172,69 @@ const Portfolio = () => {
             </div>
           ))}
         </div>
+     
+     {/* //////////////////////////////////// */}
+
+        {/* small prjects section */}
+
+     {/* <div className="py-12" >
+       <h1> small projects </h1>
+       </div>
+
+     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+          {portfolios.map(({ id, src , tooltip ,demo ,code , tech1 , tech2 , tech3, tech4, tech5, tech6 , discription}) => (
+            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+               
+
+               
+
+
+              <img
+                
+                src={src}
+                alt=""
+                className="rounded-md duration-200 hover:scale-105"
+              />
+              
+              <div className="text-gray-300 px-2 py-2"  >
+               {discription}
+              </div>
+              <span className="flex gap-3 py-2 px-2 text-blue-300" > Tech Stack -  
+               <img style={{width:"31px"}} src={tech1} alt="tech" />
+               <img style={{width:"31px"}} src={tech2} alt="tech" />                   
+               { tech3 ? <img style={{width:"31px"}} src={tech3} alt="tech" /> : null }                   
+               { tech4 ? <img style={{width:"31px"}} src={tech4} alt="tech" /> : null }                   
+               { tech5 ? <img style={{width:"31px"}} src={tech5} alt="tech" /> : null }                   
+               { tech6 ? <img style={{width:"31px"}} src={tech6} alt="tech" /> : null }                   
+               
+
+             </span> 
+
+
+              <span className="flex gap-3 py-2 px-2 ml-14 pl-14 text-blue-300" > 
+               
+                                
+                                   
+               
+
+             </span> 
+
+
+              <div className="flex items-center justify-center">
+                
+                <a href={demo} target="_blank" className="w-1/2 px-6 m-3.5 p-2 hover:text-blue-400 duration-200 text-green hover:scale-105">
+                  Demo
+                </a>
+                <a href={code} target="_blank" className="w-1/2 px-6 m-3.5 p-2 hover:text-blue-400 duration-200 hover:scale-105">
+                  Code
+                </a>
+              </div>
+            </div>
+          ))}
+        </div> */}
+
+     {/* ///////////////////////////////////// */}
+
         <div className="bg-grey-800  w-full text-white  md:h-screen" style={{height:"111px"}} >
         </div>
       </div>

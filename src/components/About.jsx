@@ -1,6 +1,9 @@
 import React from "react";
 import ReactTooltip from "react-tooltip"
 import GitHubCalender from "react-github-calendar"
+import Clock from "react-clock";
+import AnalogClock from "../clock/Clock";
+
 // import "react-tooltip/dist/react-tooltip.css";
 const About = () => {
   return (
@@ -8,6 +11,7 @@ const About = () => {
       name="about"
       
       className="w-full h-887px bg-gradient-to-b from-gray-800 to-black text-white"
+      // className="w-full h-887px bg-white text-white"
     >
       <div className="max-w-screen-lg p-4 gap-7 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -29,7 +33,11 @@ const About = () => {
         through dedicated effort.
         </p>
 
+
         <br />
+
+          
+
          <div>
            <GitHubCalender
              username="kallol0011"

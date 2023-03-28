@@ -51,26 +51,14 @@ const Contact = () => {
       href: "https://drive.google.com/file/d/1qCNGAeixGMObjhT-0LWdvy-j-N5wtbIw/view?usp=share_link" , //   "/resume.pdf",
       style: "rounded-br-md",
       tooltip:"Resume"
-    },
-    {
-      id:54,
-      
-      child: (
-        <>
-           <AiOutlinePhone size={30}/>
-        </>
-      ),
-      
-      href: "" , 
-      style: "rounded-br-md",
-      tooltip:"+91 7063577154"
-    },
+    }
   ];
 
   return (
     <div
       name="contact"
       className="w-full h-887px bg-gradient-to-b from-black to-gray-800 p-4 text-white"
+      // className="w-full h-887px bg-white text-black"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
@@ -122,7 +110,7 @@ const Contact = () => {
          
         className="  lg:mr-2 text-blue-300 sm:text-4xl flex-col text-center justify-center  " >
           
-        <div className="flex gap-9 sm:ml-72 text-center" >
+        <div className="flex lg:pl-7 gap-9 sm:ml-72 text-center" >
         {links.map(({ id, child, href, style, download , tooltip }) => (
           <div
           
