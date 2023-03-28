@@ -45,7 +45,7 @@ const NavBar = () => {
         <h1 className="  text-5xl font-signature text-white ml-6 hover:scale-125 duration-200 cursor-pointer ">kallol</h1>
       </div>
 
-      <ul className="hidden md:flex" id="nav-menu" > 
+      <ul className="hidden md:flex"  > 
         {links.map(({ id, link }) => (
           <li
           id=".nav-link.home"
@@ -62,7 +62,7 @@ const NavBar = () => {
       </ul>
 
 
-      <div id="nav-menu"
+      <div 
         onClick={() => setNav(!nav)}
         className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
       >
