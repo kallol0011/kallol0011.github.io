@@ -19,7 +19,7 @@ const Home = () => {
           
           </h2>
           <h2 className="text-4xl sm:text-5xl font-bold inline-flex text-blue-400  " >
-         <span className="text-white "> I'm </span> 	&nbsp;
+         <span className="text-white" id="user-detail-name" > I'm </span> 	&nbsp;
           <h5 className="hover:scale-y-150 duration-200">K</h5>
           <h5 className="hover:scale-y-150 duration-200">a</h5>
           <h5 className="hover:scale-y-150 duration-200">l</h5>
