@@ -35,7 +35,7 @@ const Home = () => {
           <h5 className="hover:scale-y-150 duration-200">r</h5>
          {/* Kallol Sarkar */}
           </h2>
-          <p className="text-gray-400 py-4 max-w-md">
+          <p className="text-gray-400 py-4 max-w-md" id="user-detail-intro" >
           Full-stack developer with experience in development and design.
            Proficient in various programming languages and able to create functional,
             visually appealing websites and applications.
@@ -65,6 +65,7 @@ const Home = () => {
 
         <div>
           <img
+          id=".home-img"
             src={profilepic}
             alt="my profile"
             className="rounded-full mx-auto w-2/3 md:w-full " style={{width:"81%"}}
