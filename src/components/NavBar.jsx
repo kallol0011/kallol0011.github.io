@@ -64,7 +64,7 @@ const NavBar = () => {
             </Link>
           </li>
         ))}
-        <button id="resume-button-1" className="text-gray-100 mr-1 bg-blue-400 rounded-full px-5 hover:scale-125 duration-200" onClick={openResume} > <a href={Resume} download="Kallol_Sarkar_Resume"  >  Resume   </a> </button>  
+        <button id="resume-button-1" className="text-gray-100 mr-1 bg-green-400 rounded-full px-5 hover:scale-125 duration-200" onClick={openResume} > <a href={Resume} download="Kallol_Sarkar_Resume"  >  Resume   </a> </button>  
         
       </ul>
 
