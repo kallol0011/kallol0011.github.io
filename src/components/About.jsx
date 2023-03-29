@@ -9,8 +9,9 @@ const About = () => {
   return (
     <div
       name="about"
+      id="about" 
       
-      className="w-full h-887px bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full h-887px bg-gradient-to-b from-gray-800 to-black text-white  about section "
       // className="w-full h-887px bg-white text-white"
     >
       <div className="max-w-screen-lg p-4 gap-7 mx-auto flex flex-col justify-center w-full h-full">
@@ -23,7 +24,7 @@ const About = () => {
         
 
 
-        <p className="text-xl mt-7 text-gray-400" id="#about" >
+        <p className="text-xl mt-7 text-gray-400" id="user-detail-intro" >
         Motivated and innovative aspiring full-stack developer
         with hands-on experience building websites with MERN
         stack and various web technologies including HTML,
@@ -38,7 +39,7 @@ const About = () => {
 
           
 
-         <div>
+         <div id="calender" >
            <GitHubCalender
              username="kallol0011"
              blockSize={18}
@@ -51,10 +52,16 @@ const About = () => {
            </GitHubCalender>
          </div>
 
-        <div className="lg:flex sm:grid gap-y-7   " >
+        <div className="lg:flex sm:grid gap-y-7   " id="github-streak-stats"  >
           <img src="https://github-readme-stats.vercel.app/api?username=kallol0011&show_icons=true&theme=radical" alt="" />
-          <img className=" sm:ml-2 sm:pl-2 lg:ml-11 lg:pl-14 " src="https://github-readme-stats.vercel.app/api/top-langs/?username=kallol0011&layout=compact)](https://github.com/anuraghazra/github-readme-stats)" alt="" />
-       
+          <img id="github-top-langs" className=" sm:ml-2 sm:pl-2 lg:ml-11 lg:pl-14 " src="https://github-readme-stats.vercel.app/api/top-langs/?username=kallol0011&layout=compact)](https://github.com/anuraghazra/github-readme-stats)" alt="" />
+          <img
+              className="stats"
+              align="center"
+              src="https://github-readme-streak-stats.herokuapp.com/?user=sushantshekhar82&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40"
+              alt="sushantshekhar82"
+              id="github-streak-stats"
+            />
        
         </div>
       </div>

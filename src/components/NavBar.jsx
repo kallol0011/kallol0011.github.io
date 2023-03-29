@@ -51,19 +51,20 @@ const NavBar = () => {
         <h1 className="  text-5xl font-signature text-white ml-6 hover:scale-125 duration-200 cursor-pointer ">kallol</h1>
       </div>
 
-      <ul className="hidden md:flex"  > 
+      <ul className="hidden md:flex" id="navitems" > 
         {links.map(({ id, link }) => (
           <li
             id={id}
+            
             key={id}
-            className="px-5 cursor-pointer capitalize font-medium text-gray-400 hover:scale-125 hover:text-blue-400 duration-200"
+            className="px-5 cursor-pointer capitalize font-medium text-gray-400 hover:scale-125 hover:text-blue-400 duration-200 {} "
           >
-            <Link to={link} smooth duration={600} id=".nav-link.home" >
+            <Link to={link} smooth duration={600}  >
               {link} 
             </Link>
           </li>
         ))}
-        <button className="text-gray-100 mr-1 bg-blue-400 rounded-full px-5 hover:scale-125 duration-200" onClick={openResume} > <a href={Resume} download="Kallol_Sarkar_Resume"  >  Resume   </a> </button>  
+        <button id="resume-button-1" className="text-gray-100 mr-1 bg-blue-400 rounded-full px-5 hover:scale-125 duration-200" onClick={openResume} > <a href={Resume} download="Kallol_Sarkar_Resume"  >  Resume   </a> </button>  
         
       </ul>
 
@@ -76,7 +77,7 @@ const NavBar = () => {
       </div>
 
       {nav && (
-        <ul className="  flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
+        <ul  className="  flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
           {links.map(({ id, link }) => (
             <li
               

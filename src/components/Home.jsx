@@ -65,10 +65,10 @@ const Home = () => {
 
         <div>
           <img
-          id=".home-img"
+          
             src={profilepic}
             alt="my profile"
-            className="rounded-full mx-auto w-2/3 md:w-full " style={{width:"81%"}}
+            className="rounded-full mx-auto w-2/3 md:w-full  home-img " style={{width:"81%"}}
           />
         </div>
       </div>

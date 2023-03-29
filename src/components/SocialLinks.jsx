@@ -53,7 +53,7 @@ const SocialLinks = () => {
       id: 5,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+          Resume <BsFillPersonLinesFill size={30} id="resume-button-2" />
         </>
       ),
       href: "https://drive.google.com/file/d/1qCNGAeixGMObjhT-0LWdvy-j-N5wtbIw/view?usp=share_link" , //   "/resume.pdf",
