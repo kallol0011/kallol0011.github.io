@@ -58,8 +58,8 @@ const About = () => {
           <img
               className="stats"
               align="center"
-              src="https://github-readme-streak-stats.herokuapp.com/?user=sushantshekhar82&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40"
-              alt="sushantshekhar82"
+              src="https://github-readme-streak-stats.herokuapp.com/?user=kallol0011&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40"
+              alt="kallol0011"
               id="github-streak-stats"
             />
        
