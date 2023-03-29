@@ -55,13 +55,13 @@ const About = () => {
         <div className="lg:flex sm:grid gap-y-7   " id="github-streak-stats"  >
           <img src="https://github-readme-stats.vercel.app/api?username=kallol0011&show_icons=true&theme=radical" alt="" />
           <img id="github-top-langs" className=" sm:ml-2 sm:pl-2 lg:ml-11 lg:pl-14 " src="https://github-readme-stats.vercel.app/api/top-langs/?username=kallol0011&layout=compact)](https://github.com/anuraghazra/github-readme-stats)" alt="" />
-          <img
+          {/* <img
               className="stats"
               align="center"
               src="https://github-readme-streak-stats.herokuapp.com/?user=kallol0011&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40"
               alt="kallol0011"
               id="github-streak-stats"
-            />
+            /> */}
        
         </div>
       </div>
