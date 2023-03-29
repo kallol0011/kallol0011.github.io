@@ -72,13 +72,13 @@ const Contact = () => {
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500" data-aos="zoom-in" data-aos-duration="3000" >
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500" data-aos="zoom-in" data-aos-duration="2000" >
             Contact
           </p>
-          <p className="sans-serif text-2xl mt-3 " data-aos="fade-right" data-aos-duration="3000" >
+          <p className="sans-serif text-2xl mt-3 " data-aos="fade-right" data-aos-duration="2000" >
             Contact Number  <span className="text-blue-300" > - +91 7063577154 </span> 
           </p>
-          <p className="sans-serif text-2xl mt-3 " data-aos="fade-right" data-aos-duration="3000" >
+          <p className="sans-serif text-2xl mt-3 " data-aos="fade-right" data-aos-duration="2000" >
           Email <span className="text-blue-300" > - kallolblgsarkar@gmail.com</span>    
             </p>
           <p className="py-6" data-aos="fade-right" >Submit the form below to get in touch with me</p>
@@ -92,7 +92,7 @@ const Contact = () => {
           >
             <input
              data-aos="fade-right"
-             data-aos-duration="3000"
+             data-aos-duration="2000"
               type="text"
               name="name"
               placeholder="Enter your name"
@@ -100,7 +100,7 @@ const Contact = () => {
             />
             <input
             data-aos="fade-left"
-            data-aos-duration="3000"
+            data-aos-duration="2000"
               type="text"
               name="email"
               placeholder="Enter your email"
@@ -108,7 +108,7 @@ const Contact = () => {
             />
             <textarea
             data-aos="zoom-in"
-            data-aos-duration="3000"
+            data-aos-duration="2000"
               name="message"
               placeholder="Enter your message"
               rows="10"

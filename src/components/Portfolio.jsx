@@ -152,7 +152,7 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({animation , id, src , tooltip ,demo ,code , tech1 , tech2 , tech3, tech4, tech5, tech6 , discription}) => (
-            <div data-aos-duration="3000" data-aos={animation} key={id} className="shadow-md shadow-gray-600 rounded-lg">
+            <div data-aos-duration="2000" data-aos={animation} key={id} className="shadow-md shadow-gray-600 rounded-lg">
                
 
                
