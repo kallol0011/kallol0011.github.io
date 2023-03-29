@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e4a5b216.css",
-    "main.js": "/static/js/main.470503e3.js",
+    "main.js": "/static/js/main.f79a39eb.js",
     "static/media/socialmedia.png": "/static/media/socialmedia.e2e23ed3a52ea2a18fcc.png",
     "static/media/nike.png": "/static/media/nike.71574501fc5a26e92b02.png",
     "static/media/LimeRode.png": "/static/media/LimeRode.795e8ebe5c11cff1f913.png",
@@ -20,10 +20,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.e4a5b216.css.map": "/static/css/main.e4a5b216.css.map",
-    "main.470503e3.js.map": "/static/js/main.470503e3.js.map"
+    "main.f79a39eb.js.map": "/static/js/main.f79a39eb.js.map"
   },
   "entrypoints": [
     "static/css/main.e4a5b216.css",
-    "static/js/main.470503e3.js"
+    "static/js/main.f79a39eb.js"
   ]
 }
