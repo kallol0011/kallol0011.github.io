@@ -21,7 +21,20 @@ import socialmedia from "../assets/Projects/socialmedia.png"
 import cruise from "../assets/Projects/cruise.png"
 import AnalogClock from "../clock/Clock";
 
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+
 const Portfolio = () => {
+
+
+  AOS.init({
+    offset: 100,
+    duration: 1000,
+  
+  });
+
   const portfolios = [
     {
       id: 1,
@@ -37,7 +50,8 @@ const Portfolio = () => {
 
       </h2>,
       demo:"https://dashing-creponne-380cb6.netlify.app/",
-      code:"https://github.com/kallol0011/Metaverse"
+      code:"https://github.com/kallol0011/Metaverse",
+      animation:"fade-right"
     },
     {
       id: 2,
@@ -51,7 +65,8 @@ const Portfolio = () => {
       </h2>,
        
       demo:"https://lighthearted-frangipane-14ada9.netlify.app/",
-      code:"https://github.com/kallol0011/Crypto-app"
+      code:"https://github.com/kallol0011/Crypto-app",
+      animation:"zoom-in"
     },
     {
       id: 3,
@@ -64,7 +79,8 @@ const Portfolio = () => {
 
       </h2>,
       demo:"https://fastidious-nougat-dcf958.netlify.app/",
-      code:"https://github.com/kallol0011/Facebook_UI"
+      code:"https://github.com/kallol0011/Facebook_UI",
+      animation:"fade-left"
     },
     {
       id: 4,
@@ -77,7 +93,8 @@ const Portfolio = () => {
 
       </h2>,
       demo:"https://inspiring-beijinho-e0ad7a.netlify.app/",
-      code:"https://github.com/kallol0011/Nike_clone"
+      code:"https://github.com/kallol0011/Nike_clone",
+      animation:"fade-right"
     },
     {
       id: 5,
@@ -90,7 +107,8 @@ const Portfolio = () => {
 
       </h2>,
       demo:"https://fashi0n-square.netlify.app/",
-      code:"https://github.com/Avneesh002/Fashion-square"
+      code:"https://github.com/Avneesh002/Fashion-square",
+      animation:"zoom-in"
     },
     {
       id: 6,
@@ -105,11 +123,19 @@ const Portfolio = () => {
         Avis is India's leading mobility Company with services ranging from chauffeur drive and self-drive car rentals, car-Sales
       </h2>,
       demo:"https://cruiserental.vercel.app/",
-      code:"https://github.com/shikhu51197/Avis-Rentals"
+      code:"https://github.com/shikhu51197/Avis-Rentals",
+      animation:"fade-left"
     }
   ];
 
+  
+
+
   return (
+
+
+
+
     <div
       name="projects"
       className="bg-gradient-to-b from-gray-800 to-black w-full text-white lg:h-887px  md:h-847px  project-card "
@@ -125,8 +151,8 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src , tooltip ,demo ,code , tech1 , tech2 , tech3, tech4, tech5, tech6 , discription}) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+          {portfolios.map(({animation , id, src , tooltip ,demo ,code , tech1 , tech2 , tech3, tech4, tech5, tech6 , discription}) => (
+            <div data-aos-duration="3000" data-aos={animation} key={id} className="shadow-md shadow-gray-600 rounded-lg">
                
 
                

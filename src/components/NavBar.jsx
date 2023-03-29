@@ -4,7 +4,18 @@ import { Link } from "react-scroll";
 // import { Link } from "react-route";
 import Resume from "../assets/Kallol-Sarkar-Resume.pdf"
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+
 const NavBar = () => {
+
+
+  AOS.init({
+    offset: 100,
+    duration: 1000,
+  });
+
   const [nav, setNav] = useState(false);
 
   const links = [
@@ -46,7 +57,7 @@ const NavBar = () => {
   }
 
   return (
-    <div id="nav-menu" className="  flex justify-between items-center w-full h-20 px-4text-white bg-black fixed  ">
+    <div data-aos="fade-down" id="nav-menu" className="  flex justify-between items-center w-full h-20 px-4text-white bg-black sticky opacity-100  ">
       <div>
         <h1 className="  text-5xl font-signature text-white ml-6 hover:scale-125 duration-200 cursor-pointer ">kallol</h1>
       </div>
@@ -57,7 +68,7 @@ const NavBar = () => {
             id={id}
             
             key={id}
-            className="px-5 cursor-pointer capitalize font-medium text-gray-400 hover:scale-125 hover:text-blue-400 duration-200 {} "
+            className="px-5 cursor-pointer capitalize font-medium text-gray-400 hover:scale-125 hover:text-blue-400 duration-200 "
           >
             <Link to={link} smooth duration={600}  >
               {link} 

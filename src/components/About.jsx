@@ -3,11 +3,25 @@ import ReactTooltip from "react-tooltip"
 import GitHubCalender from "react-github-calendar"
 import Clock from "react-clock";
 import AnalogClock from "../clock/Clock";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 // import "react-tooltip/dist/react-tooltip.css";
+
 const About = () => {
+
+
+  
+
+
+  AOS.init({
+    offset: 100,
+    duration: 1000,
+  });
+
+
   return (
-    <div
+    <div 
       name="about"
       id="about" 
       
@@ -16,7 +30,7 @@ const About = () => {
     >
       <div className="max-w-screen-lg p-4 gap-7 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500" id="#about.about.section" >
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500" id="#about.about.section" data-aos="fade-up" >
             About
           </p>
         </div>
@@ -24,7 +38,7 @@ const About = () => {
         
 
 
-        <p className="text-xl mt-7 text-gray-400" id="user-detail-intro" >
+        <p className="text-xl mt-7 text-gray-400" id="user-detail-intro" data-aos="fade-up" >
         Motivated and innovative aspiring full-stack developer
         with hands-on experience building websites with MERN
         stack and various web technologies including HTML,
@@ -39,8 +53,9 @@ const About = () => {
 
           
 
-         <div id="calender" >
+         <div id="calender" data-aos="fade-up" >
            <GitHubCalender
+             
              username="kallol0011"
              blockSize={18}
              color={"green"}
@@ -53,8 +68,8 @@ const About = () => {
          </div>
 
         <div className="lg:flex sm:grid gap-y-7   " id="github-streak-stats"  >
-          <img src="https://github-readme-stats.vercel.app/api?username=kallol0011&show_icons=true&theme=radical" alt="" />
-          <img id="github-top-langs" className=" sm:ml-2 sm:pl-2 lg:ml-11 lg:pl-14 " src="https://github-readme-stats.vercel.app/api/top-langs/?username=kallol0011&layout=compact)](https://github.com/anuraghazra/github-readme-stats)" alt="" />
+          <img data-aos="fade-right" src="https://github-readme-stats.vercel.app/api?username=kallol0011&show_icons=true&theme=radical" alt="" />
+          <img data-aos="fade-left" id="github-top-langs" className=" sm:ml-2 sm:pl-2 lg:ml-11 lg:pl-14 " src="https://github-readme-stats.vercel.app/api/top-langs/?username=kallol0011&layout=compact)](https://github.com/anuraghazra/github-readme-stats)" alt="" />
           {/* <img
               className="stats"
               align="center"

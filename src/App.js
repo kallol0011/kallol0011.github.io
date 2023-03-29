@@ -34,7 +34,8 @@ export default App;
 
 // import AOS from "aos";
 // import "aos/dist/aos.css";
-// function App() {
+
+
   // AOS.init({
   //   offset: 100,
   //   duration: 1000,
