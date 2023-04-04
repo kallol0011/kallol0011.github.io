@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.c800442c.css",
-    "main.js": "/static/js/main.cf2021a3.js",
+    "main.js": "/static/js/main.fdcb5797.js",
     "static/media/socialmedia.png": "/static/media/socialmedia.e2e23ed3a52ea2a18fcc.png",
     "static/media/nike.png": "/static/media/nike.71574501fc5a26e92b02.png",
     "static/media/crypto.png": "/static/media/crypto.267d3116a9f1b8ef5cf6.png",
+    "static/media/profilepic.png": "/static/media/profilepic.cbf4b0656ec703af1b89.png",
     "static/media/Kallol-Sarkar-Resume.pdf": "/static/media/Kallol-Sarkar-Resume.9393ecb9cb3ca97ab0f6.pdf",
     "index.html": "/index.html",
     "main.c800442c.css.map": "/static/css/main.c800442c.css.map",
-    "main.cf2021a3.js.map": "/static/js/main.cf2021a3.js.map"
+    "main.fdcb5797.js.map": "/static/js/main.fdcb5797.js.map"
   },
   "entrypoints": [
     "static/css/main.c800442c.css",
-    "static/js/main.cf2021a3.js"
+    "static/js/main.fdcb5797.js"
   ]
 }
