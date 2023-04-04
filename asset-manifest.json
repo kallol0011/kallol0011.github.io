@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d15c2d43.css",
-    "main.js": "/static/js/main.7ed9c56f.js",
+    "main.css": "/static/css/main.e67fa99c.css",
+    "main.js": "/static/js/main.449e0d58.js",
     "static/media/socialmedia.png": "/static/media/socialmedia.e2e23ed3a52ea2a18fcc.png",
     "static/media/nike.png": "/static/media/nike.71574501fc5a26e92b02.png",
     "static/media/LimeRode.png": "/static/media/LimeRode.795e8ebe5c11cff1f913.png",
@@ -19,11 +19,11 @@
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.d15c2d43.css.map": "/static/css/main.d15c2d43.css.map",
-    "main.7ed9c56f.js.map": "/static/js/main.7ed9c56f.js.map"
+    "main.e67fa99c.css.map": "/static/css/main.e67fa99c.css.map",
+    "main.449e0d58.js.map": "/static/js/main.449e0d58.js.map"
   },
   "entrypoints": [
-    "static/css/main.d15c2d43.css",
-    "static/js/main.7ed9c56f.js"
+    "static/css/main.e67fa99c.css",
+    "static/js/main.449e0d58.js"
   ]
 }
