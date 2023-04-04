@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5a5a9d30.css",
-    "main.js": "/static/js/main.9e07c831.js",
+    "main.js": "/static/js/main.591c787f.js",
     "static/media/socialmedia.png": "/static/media/socialmedia.e2e23ed3a52ea2a18fcc.png",
     "static/media/nike.png": "/static/media/nike.71574501fc5a26e92b02.png",
     "static/media/crypto.png": "/static/media/crypto.267d3116a9f1b8ef5cf6.png",
@@ -9,10 +9,10 @@
     "static/media/Kallol-Sarkar-Resume.pdf": "/static/media/Kallol-Sarkar-Resume.9393ecb9cb3ca97ab0f6.pdf",
     "index.html": "/index.html",
     "main.5a5a9d30.css.map": "/static/css/main.5a5a9d30.css.map",
-    "main.9e07c831.js.map": "/static/js/main.9e07c831.js.map"
+    "main.591c787f.js.map": "/static/js/main.591c787f.js.map"
   },
   "entrypoints": [
     "static/css/main.5a5a9d30.css",
-    "static/js/main.9e07c831.js"
+    "static/js/main.591c787f.js"
   ]
 }
