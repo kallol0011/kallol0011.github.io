@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.5a5a9d30.css",
-    "main.js": "/static/js/main.591c787f.js",
+    "main.css": "/static/css/main.d667459e.css",
+    "main.js": "/static/js/main.79a0cb55.js",
     "static/media/socialmedia.png": "/static/media/socialmedia.e2e23ed3a52ea2a18fcc.png",
     "static/media/nike.png": "/static/media/nike.71574501fc5a26e92b02.png",
     "static/media/crypto.png": "/static/media/crypto.267d3116a9f1b8ef5cf6.png",
     "static/media/profilepic.png": "/static/media/profilepic.cbf4b0656ec703af1b89.png",
     "static/media/Kallol-Sarkar-Resume.pdf": "/static/media/Kallol-Sarkar-Resume.9393ecb9cb3ca97ab0f6.pdf",
     "index.html": "/index.html",
-    "main.5a5a9d30.css.map": "/static/css/main.5a5a9d30.css.map",
-    "main.591c787f.js.map": "/static/js/main.591c787f.js.map"
+    "main.d667459e.css.map": "/static/css/main.d667459e.css.map",
+    "main.79a0cb55.js.map": "/static/js/main.79a0cb55.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a5a9d30.css",
-    "static/js/main.591c787f.js"
+    "static/css/main.d667459e.css",
+    "static/js/main.79a0cb55.js"
   ]
 }
