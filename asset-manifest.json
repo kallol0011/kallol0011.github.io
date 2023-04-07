@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0038338e.css",
-    "main.js": "/static/js/main.65c16736.js",
+    "main.js": "/static/js/main.b036c776.js",
     "static/media/socialmedia.png": "/static/media/socialmedia.e2e23ed3a52ea2a18fcc.png",
     "static/media/nike.png": "/static/media/nike.71574501fc5a26e92b02.png",
     "static/media/LimeRode.png": "/static/media/LimeRode.795e8ebe5c11cff1f913.png",
@@ -9,7 +9,7 @@
     "static/media/metsverse.png": "/static/media/metsverse.351aae80654a85deb2c1.png",
     "static/media/crypto.png": "/static/media/crypto.267d3116a9f1b8ef5cf6.png",
     "static/media/profilepic.png": "/static/media/profilepic.cbf4b0656ec703af1b89.png",
-    "static/media/Kallol-Sarkar-Resume.pdf": "/static/media/Kallol-Sarkar-Resume.9393ecb9cb3ca97ab0f6.pdf",
+    "static/media/Kallol_Sarkar_Resume.pdf": "/static/media/Kallol_Sarkar_Resume.e3f7f1e3c22fe19f5ade.pdf",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/nextjs.png": "/static/media/nextjs.48ddc8121a0fcb543d64.png",
@@ -20,10 +20,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.0038338e.css.map": "/static/css/main.0038338e.css.map",
-    "main.65c16736.js.map": "/static/js/main.65c16736.js.map"
+    "main.b036c776.js.map": "/static/js/main.b036c776.js.map"
   },
   "entrypoints": [
     "static/css/main.0038338e.css",
-    "static/js/main.65c16736.js"
+    "static/js/main.b036c776.js"
   ]
 }
