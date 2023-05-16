@@ -18,8 +18,13 @@ import crypto from "../assets/Projects/crypto.png"
 import nike from "../assets/Projects/nike.png"
 import socialmedia from "../assets/Projects/socialmedia.png"
 
+import homepage from "../assets/Projects/homepage.png"
 import cruise from "../assets/Projects/cruise.png"
+import mangoshooter from "../assets/Projects/mangoshooter.png"
+import crypto2 from "../assets/Projects/crypto2.png"
+import mangoshooter2 from "../assets/Projects/mangoshooter2.png"
 import AnalogClock from "../clock/Clock";
+
 
 
 import AOS from "aos";
@@ -38,15 +43,16 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: metsverse,
-      tech1: nextjs ,
-      tech2: tailwind ,
+      src: mangoshooter2,
+      tech1: typescript1 ,
+      tech2: chakra2 ,
+      tech3: reactImage ,
       // tech3: "https://cdn.dribbble.com/users/4878/screenshots/15802274/media/8f63cece88fccd2a614f791e5fbec240.png?compress=1&resize=400x300&vertical=top",
       
      tech:" Next js  tailwind css  Framer Motion",
       
       discription:<h2>
-      METAVERSUS is a landing page of metaverse website with cool animations  
+      Mango Shooter is a fast-paced arcade-style game where you shoot incoming mangoes before they reach the ground.  
 
       </h2>,
       demo:"https://dashing-creponne-380cb6.netlify.app/",
@@ -55,7 +61,7 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: crypto,
+      src: crypto2,
       tech1: reactImage ,
       tech2: chakra2 ,
       tech3: "https://www.chartjs.org/img/chartjs-logo.svg ",
@@ -64,37 +70,24 @@ const Portfolio = () => {
 
       </h2>,
        
-      demo:"https://lighthearted-frangipane-14ada9.netlify.app/",
-      code:"https://github.com/kallol0011/Crypto-app",
+      demo:"https://mern-crypto-tracker.vercel.app/",
+      code:"https://github.com/kallol0011/MERN_Crypto_Tracker",
       animation:"zoom-in"
     },
-    {
-      id: 3,
-      src: socialmedia,
-      tech1: reactImage ,
-      tech2: tailwind ,
-      tech3: chakra2,
-      discription:<h2>
-      it's a basic clone of facebook . it's have features like Like , Dislike and comments etc
-
-      </h2>,
-      demo:"https://fastidious-nougat-dcf958.netlify.app/",
-      code:"https://github.com/kallol0011/Facebook_UI",
-      animation:"fade-left"
-    },
+    
     {
       id: 4,
       src: nike,
       tech1: reactImage ,
       tech2: tailwind ,
-      tech3: "https://cdn.dribbble.com/users/4878/screenshots/15802274/media/8f63cece88fccd2a614f791e5fbec240.png?compress=1&resize=400x300&vertical=top",
+      tech3: redux ,
       discription:<h2>
         Nike store is an online shopping destination which have  sports and casual sneakers  for men's and womenʼs 
 
       </h2>,
       demo:"https://inspiring-beijinho-e0ad7a.netlify.app/",
       code:"https://github.com/kallol0011/Nike_clone",
-      animation:"fade-right"
+      animation:"fade-left"
     },
     {
       id: 5,
@@ -103,12 +96,12 @@ const Portfolio = () => {
       tech2: chakra2 ,
       tech3: redux,
       discription:<h2>
-        Nike store is an online shopping destination which have  sports and casual sneakers  for men's and womenʼs 
+        Fashion Square is an online marketplace that offers a wide range of trendy and stylish clothing, and accessories for men and women. 
 
       </h2>,
       demo:"https://fashi0n-square.netlify.app/",
       code:"https://github.com/Avneesh002/Fashion-square",
-      animation:"zoom-in"
+      animation:"fade-left"
     },
     {
       id: 6,
@@ -124,6 +117,20 @@ const Portfolio = () => {
       </h2>,
       demo:"https://cruiserental.vercel.app/",
       code:"https://github.com/shikhu51197/Avis-Rentals",
+      animation:"zoom-in"
+    },{
+      id: 3,
+      src: homepage,
+      tech1: reactImage ,
+      tech2: node ,
+      tech3: chakra2,
+      tech4: mongodb,
+      discription:<h2>
+      Amazon clone is a platform that recreates the Amazon shopping experience using the React framework
+
+      </h2>,
+      demo:"https://amazon-five-fawn.vercel.app/",
+      code:"https://github.com/kallol0011/Facebook_UI",
       animation:"fade-left"
     }
   ];
@@ -152,11 +159,7 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({animation , id, src , tooltip ,demo ,code , tech1 , tech2 , tech3, tech4, tech5, tech6 , discription}) => (
-            <div data-aos-duration="2000" data-aos={animation} key={id} className="shadow-md shadow-gray-600 rounded-lg">
-               
-
-               
-
+            <div  data-aos={animation} key={id} className="shadow-md shadow-gray-600 rounded-lg">
 
               <img
                 

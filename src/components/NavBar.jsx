@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 // import { Link } from "react-route";
-import Resume from "../assets/Kallol-Sarkar-Resume.pdf"
+// import Resume from "../assets/Kallol-Sarkar-Resume.pdf"
+import Update_Resume from "../assets/Kallol_Sarkar_Resume.pdf"
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -20,29 +21,29 @@ const NavBar = () => {
 
   const links = [
     {
-      // id: 1,
-      id : ".nav-link.home",
+      id: 1,
+      // id : ".nav-link.home",
       link: "home",
 
     },
     {
-      // id: 2,
-      id:".nav-link.about",
+      id: 2,
+      // id:".nav-link.about",
       link: "about",
     },
     {
-      // id: 3,
-      id:".nav-link.projects",
-      link: "projects",
-    },
-    {
-      // id: 4,
-      id:".nav-link.skills",
+      id: 3,
+      // id:".nav-link.projects",
       link: "technical_skills",
     },
     {
-      // id: 5,
-      id:".nav-link.contact",
+      id: 4,
+      // id:".nav-link.skills",
+      link: "projects",
+    },
+    {
+      id: 5,
+      // id:".nav-link.contact",
       link: "contact",
     },
     // {
@@ -52,12 +53,14 @@ const NavBar = () => {
   ];
 
   const openResume=()=>{
-    window.open("https://drive.google.com/file/d/1qCNGAeixGMObjhT-0LWdvy-j-N5wtbIw/view?usp=share_link");
+    // window.open("https://drive.google.com/file/d/1qCNGAeixGMObjhT-0LWdvy-j-N5wtbIw/view?usp=share_link");
+    window.open("https://drive.google.com/file/d/1C_6hQG8j1FUgH1JhskxFb_HC9oj8IVJi/view?usp=share_link");
     
   }
 
   return (
-    <div data-aos="fade-down" id="nav-menu" className="  flex justify-between items-center w-full h-20 px-4text-white bg-black sticky opacity-100  ">
+    // z-index=25 and sticky add in navbar
+    <div data-aos="fade-down" id="nav-menu" className=" z-30  flex justify-between items-center w-full h-20 px-4text-white bg-black fixed opacity-100   ">
       <div>
         <h1 className="  text-5xl font-signature text-white ml-6 hover:scale-125 duration-200 cursor-pointer ">kallol</h1>
       </div>
@@ -75,7 +78,12 @@ const NavBar = () => {
             </Link>
           </li>
         ))}
-        <button id="resume-button-1" className="text-gray-100 mr-1 bg-blue-400 rounded-full px-5 hover:scale-125 duration-200" onClick={openResume} > <a href={Resume} download="Kallol_Sarkar_Resume"  >  Resume   </a> </button>  
+        {/* <button id="resume-button-1" 
+        className="text-gray-100 mr-1 bg-blue-400 rounded-full px-5 hover:bg-gray-600 hover:scale-105 duration-200" onClick={openResume} >
+           <a href={Resume} download="Kallol_Sarkar_Resume"   >  Resume   </a> </button> */}
+        <button id="resume-button-1" 
+        className="text-gray-100 mr-1 bg-blue-400 rounded-full px-5 hover:bg-gray-600 hover:scale-105 duration-200" onClick={openResume} >
+           <a href={Update_Resume} download="Kallol_Sarkar_Resume"   >  Resume   </a> </button>  
         
       </ul>
 
@@ -105,6 +113,7 @@ const NavBar = () => {
               </Link>
             </li>
           ))}
+          {/* <button id="resume-button-1" className="text-gray-100 mr-1 bg-blue-400 rounded-full px-5 hover:bg-gray-600 hover:scale-105 duration-200" onClick={openResume} > <a href={Resume} download="Kallol_Sarkar_Resume"   >  Resume   </a> </button> */}
         </ul>
       )}
     </div>

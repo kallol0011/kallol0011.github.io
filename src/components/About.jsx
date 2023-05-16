@@ -69,7 +69,10 @@ const About = () => {
 
         <div className="lg:flex sm:grid gap-y-7   " id="github-streak-stats"  >
           <img data-aos="fade-right" src="https://github-readme-stats.vercel.app/api?username=kallol0011&show_icons=true&theme=radical" alt="" />
-          <img data-aos="fade-left" id="github-top-langs" className=" sm:ml-2 sm:pl-2 lg:ml-11 lg:pl-14 " src="https://github-readme-stats.vercel.app/api/top-langs/?username=kallol0011&layout=compact)](https://github.com/anuraghazra/github-readme-stats)" alt="" />
+          
+          <img  id="github-top-langs" data-aos="fade-left" className=" sm:ml-2 sm:pl-2 lg:ml-11 lg:pl-14  " src="https://github-readme-stats.vercel.app/api/top-langs/?username=kallol0011&layout=compact)](https://github.com/anuraghazra/github-readme-stats)" alt="" />
+       
+        </div>
           {/* <img
               className="stats"
               align="center"
@@ -77,8 +80,6 @@ const About = () => {
               alt="kallol0011"
               id="github-streak-stats"
             /> */}
-       
-        </div>
       </div>
       
     </div>
